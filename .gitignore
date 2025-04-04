@@ -1,0 +1,47 @@
+# .gitignore for Next.js 14 + Vercel
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js
+.next/
+out/
+
+# Build files
+dist/
+.turbo
+
+# Cache
+.cache/
+.vscode/
+
+# Environment variables
+.env*
+!.*.example
+.env.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+
+# Vercel
+.vercel/
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional (uncomment if needed)
+# .idea/
+# .vscode/
