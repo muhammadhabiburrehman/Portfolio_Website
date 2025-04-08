@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { GithubIcon, LinkedinIcon, MailIcon } from "lucide-react";
 import { useState } from "react";
+import { FaEnvelope, FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 
 export function ContactSection() {
   const [formData, setFormData] = useState({
@@ -168,22 +168,24 @@ export function ContactSection() {
 
             <div className="space-y-4">
               <div className="flex items-center gap-3">
-                <MailIcon className="h-5 w-5 text-primary" />
+                <FaEnvelope className="h-5 w-5 text-primary" />
                 <span>muhammad.habib.urrehman@outlook.com</span>
               </div>
+              
+
               <div className="flex items-center gap-3">
-                <LinkedinIcon className="h-5 w-5 text-primary" />
+                <FaLinkedin className="h-5 w-5 text-primary" />
                 <a
-                  href="https://www.linkedin.com/in/muhammad-habib-a82281225/"
+                  href="https://www.linkedin.com/in/muhammadhabib-urrehman/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:underline"
                 >
-                  linkedin.com/in/muhammad-habib-a82281225/
+                  linkedin.com/in/muhammadhabib-urrehman/
                 </a>
               </div>
               <div className="flex items-center gap-3">
-                <GithubIcon className="h-5 w-5 text-primary" />
+                <FaGithub className="h-5 w-5 text-primary" />
                 <a
                   href="https://github.com/muhammadhabiburrehman"
                   target="_blank"
@@ -191,6 +193,17 @@ export function ContactSection() {
                   className="hover:underline"
                 >
                   github.com/muhammadhabiburrehman
+                </a>
+              </div>
+              <div className="flex items-center gap-3">
+                <FaYoutube className="h-5 w-5 text-primary" />
+                <a
+                  href="https://www.youtube.com/@muhammadhabib-urrehman"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline"
+                >
+                  youtube.com/@muhammadhabib-urrehman
                 </a>
               </div>
             </div>
