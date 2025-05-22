@@ -19,10 +19,10 @@ export function YoutubeSection() {
     },
     {
       id: "kubernetes",
-      title: "Kubernetes Series",
+      title: "Kubernetes In Simple",
       description: "Container orchestration made simple",
-      stats: "Coming Soon",
-      url: "",
+      stats: "Ongoing",
+      url: "https://www.youtube.com/playlist?list=PLk78Xv-ivmRS1C7DRbf5LX_WHCp8xltr0",
     },
     {
       id: "cicd",
